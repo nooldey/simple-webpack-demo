@@ -1,0 +1,23 @@
+{
+  "name": "pwa-blog",
+  "version": "1.0.0",
+  "description": "simple blog with pwa",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nooldey/static.git"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "Nooldey",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
