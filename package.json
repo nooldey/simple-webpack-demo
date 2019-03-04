@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "node dev-server.js",
-    "build": "npx webpack"
+    "build": "npx webpack",
+    "tree-shaking": "npx webpack -p"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,5 @@
     "webpack-dev-server": "^3.2.1",
     "webpack-manifest-plugin": "^2.0.4"
   },
-  "sideEffects": true
+  "sideEffects": false
 }
