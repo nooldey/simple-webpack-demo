@@ -4,8 +4,7 @@
   "description": "simple blog with pwa",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server",
-    "server": "node server.js",
+    "dev": "node dev-server.js",
     "build": "npx webpack --mode production"
   },
   "repository": {
@@ -20,7 +19,6 @@
   "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^1.0.1",
-    "express": "^4.16.4",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
