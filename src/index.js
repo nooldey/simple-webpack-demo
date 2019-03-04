@@ -1,12 +1,14 @@
-import printMe from './print.js';
+import { cube } from './libs/math';
 
 function component() {
   let element = document.createElement('div');
-  let btn = document.createElement('button');
-  element.innerHTML = ['Hello','webpack','with','pwa','\n'].join(' ');
-  btn.innerHTML = 'click here';
-  btn.onclick = printMe;
-  element.appendChild(btn);
+  element.innerHTML = [
+    'Hello',
+    'webpack',
+    'with',
+    'pwa',
+    '3 cubed is equal to ' + cube(3)
+  ].join('\n\n');
   return element;
 }
 

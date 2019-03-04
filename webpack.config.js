@@ -10,6 +10,9 @@ module.exports = {
   },
   /* develop configure */
   mode: 'development',
+  optimization: {
+    usedExports: true
+  },
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',

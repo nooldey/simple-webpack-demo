@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "node dev-server.js",
-    "build": "npx webpack --mode production"
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,6 @@
     "webpack-dev-middleware": "^3.6.0",
     "webpack-dev-server": "^3.2.1",
     "webpack-manifest-plugin": "^2.0.4"
-  }
+  },
+  "sideEffects": true
 }
