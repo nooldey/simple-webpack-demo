@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "simple blog with pwa",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dev": "",
+    "build": "npx webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nooldey/static.git"
