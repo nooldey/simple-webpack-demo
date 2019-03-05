@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     main: './src/index.js',
-    other: './src/another.js'
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -19,7 +18,7 @@ module.exports = {
     })
   ],
   output: {
-    filename: '[name].js',
+    filename: '[name].[chunkhash:8].js',
     path: path.resolve(__dirname, './dist'),
     publicPath: '/'
   },

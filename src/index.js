@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import { cube } from './libs/math';
 
 function component() {
@@ -15,5 +14,3 @@ function component() {
 }
 
 document.body.appendChild(component());
-
-console.log(_.join([4,5,6],'+'));
