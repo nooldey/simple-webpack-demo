@@ -4,6 +4,7 @@ const ManifestPlugin = require('webpack-manifest-plugin');
 
 module.exports = merge(common, {
   mode: 'production',
+  devtool: 'source-map',
   optimization: {
     usedExports: true
   },
