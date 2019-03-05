@@ -4,9 +4,8 @@
   "description": "simple blog with pwa",
   "private": true,
   "scripts": {
-    "dev": "node dev-server.js",
-    "build": "npx webpack",
-    "tree-shaking": "npx webpack -p"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,8 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-middleware": "^3.6.0",
     "webpack-dev-server": "^3.2.1",
-    "webpack-manifest-plugin": "^2.0.4"
+    "webpack-manifest-plugin": "^2.0.4",
+    "webpack-merge": "^4.2.1"
   },
   "sideEffects": false
 }

@@ -8,7 +8,7 @@ function component() {
     'with',
     'pwa',
     '3 cubed is equal to ' + cube(3),
-    '5 cubed is equal to ' + cube(5),
+    '5 cubed is equal to ' + cube(9),
   ].join('\n\n');
   return element;
 }
